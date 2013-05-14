@@ -33,3 +33,12 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Ignore settings local
+settings_local.py
+
+# Ignore tests module
+assignment/account_lead/tests
+
+# Ignore SQLite DB
+assignment.db
