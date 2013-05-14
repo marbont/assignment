@@ -1,15 +1,15 @@
 # Assignment
 
 ## Setup
-* ** Requirements installation **
-  pip install -r requeriments/0-production.txt
-* ** Create your own settings_local.py **
-  cp settings_local_template.py settings_local.py
-* ** Configure your own settings_local.py **
-  Enter all needed values in settings_local.py
-* ** Fixtures loading **  
-  python manage.py loaddata
-  You can use the account admin (password: admin) to manage admin site
+### Requirements installation
+pip install -r requeriments/0-production.txt
+### Create your own settings_local.py
+cp settings_local_template.py settings_local.py
+### Configure your own settings_local.py
+Enter all needed values in settings_local.py
+### Fixtures loading
+python manage.py loaddata
+* You can use the account admin (password: admin) to manage admin site
   
 ## Usage
 * Once the server is running you can insert (thorugh the admin panel) new account or delete old ones: they will be automatically synchronized with remote DB.
