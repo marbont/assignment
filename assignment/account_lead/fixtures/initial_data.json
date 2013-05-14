@@ -1,0 +1,87 @@
+[
+{
+    "pk": 1, 
+    "model": "account_lead.mailinglist", 
+    "fields": {
+        "number": 1, 
+        "name": "Classic NL"
+    }
+},
+{
+    "pk": 2, 
+    "model": "account_lead.mailinglist", 
+    "fields": {
+        "number": 2, 
+        "name": "Classic BE NL"
+    }
+},
+{
+    "pk": 3, 
+    "model": "account_lead.mailinglist", 
+    "fields": {
+        "number": 3, 
+        "name": "Classic DE"
+    }
+},
+{
+    "pk": 4, 
+    "model": "account_lead.mailinglist", 
+    "fields": {
+        "number": 4, 
+        "name": "Classic BE FR"
+    }
+},
+{
+    "pk": 5, 
+    "model": "account_lead.mailinglist", 
+    "fields": {
+        "number": 5, 
+        "name": "Citytrips Paris NL"
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "admin", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2013-05-05T17:03:11.688Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$10000$3yaDUbDKwJof$LvphVBkADJWOYy8BgGai2bcZpDBmvgG5UUdhRVi7vqQ=", 
+        "email": "", 
+        "date_joined": "2013-05-05T17:03:01.233Z"
+    }
+},
+{
+    "pk": 2, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "tb", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": false, 
+        "is_staff": false, 
+        "last_login": "2013-05-06T12:30:32.343Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$10000$KmB20c0fEqoa$YH1zzUgqAX+FC5UKggz9XjoEdbs7u5A6t2LNsPu02HA=", 
+        "email": "", 
+        "date_joined": "2013-05-06T12:30:32.343Z"
+    }
+},
+{
+    "pk": 2, 
+    "model": "tastypie.apikey", 
+    "fields": {
+        "user": 1, 
+        "key": "e37dbf8facc2d9fe96b8a2c75fab91431b10b05e", 
+        "created": "2013-05-06T12:30:32.536Z"
+    }
+}
+]

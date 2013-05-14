@@ -1,0 +1,9 @@
+##################################################
+### In this file you can find all requirements ###
+### that are not mandatories, but useful for   ###
+### dev purposes.                              ###
+### Usage: pip install -r 1-dev.txt            ###
+##################################################
+
+# IPython (advanced shell)
+IPython

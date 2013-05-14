@@ -1,0 +1,32 @@
+#########################################################
+### In this file you can find all requirements        ###
+### you need to run the code.                         ###
+### Usage: pip install -r 0-production.txt            ###
+#########################################################
+
+# Django version 1.5
+Django==1.5.1
+
+# Requests: used to send get, post and delete requests in a easier way
+requests
+
+# Dateutil to mange datetime
+python-dateutil==1.5
+
+# Mimeparse for tastypie
+mimeparse==0.1.3
+
+# lxml for tastypie
+lxml
+
+# pyyaml for tastypie
+pyyaml
+
+# uuid for Authentication with Tastypie
+uuid
+
+# Django tastypie
+django-tastypie
+
+# Haystack
+django-haystack
